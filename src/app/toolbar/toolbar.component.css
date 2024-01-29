@@ -1,0 +1,8 @@
+.toolbar {
+    position: inherit;
+    background-color: #FFCFE8;
+}
+
+.active { 
+    background-color: #ffffff;
+}

@@ -1,0 +1,24 @@
+<div class="parent">
+  <div class="child" *ngFor="let video of videos">
+    <mat-card class="dance">
+      <mat-card-header>
+        <mat-card-title>{{video.title}}</mat-card-title>
+        <mat-card-subtitle>Hannah Kramer</mat-card-subtitle>
+      </mat-card-header>
+      <video controls="controls">
+        <source src={{video.location}}>
+        Your browser does not support the video tag.
+      </video>
+      <mat-card-content>
+        <p>
+          {{ video.description }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+</div>
