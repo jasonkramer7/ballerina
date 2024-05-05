@@ -22,7 +22,7 @@ export const videos: DanceVideo[] = [
         location: "assets/videos/DanceDynamics/DDC_2023.mov"
     },
     {
-        title: "ODP 2024 Lyrical",
+        title: "ODP 2024 Contemporary",
         description: "Hannah in the Omaha Dance Project 2024 - What Was I Made For",
         location: "assets/videos/ODP/ODP_2024_madefor.mp4"
     },
