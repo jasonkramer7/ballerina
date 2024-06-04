@@ -3,6 +3,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { CommonModule } from "@angular/common";
 import { Images } from '../interface/Images';
+import { images } from './images';
 
 @Component({
   selector: 'app-home',
@@ -17,15 +18,6 @@ export class HomeComponent implements OnInit {
 
   constructor(){}
   ngOnInit(): void {
-    let im1:Images = {
-      title : "Hannah",
-      location: "assets/images/IMG_5709.JPG"
-    };
-    this.images.push(im1);
-    let im2: Images = {
-      title : "Hannah",
-      location: "assets/images/IMG_5716.JPG"
-    };
-    this.images.push(im2);
+    this.images = images;
   }
 }
