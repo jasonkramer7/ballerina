@@ -5,3 +5,9 @@
 .list {
     list-style-type:none;
 }
+
+.body {
+    background-image: url("/assets/backgrounds/hearts.jpeg");
+    width: 100vh;
+    height: 100vh;
+}
