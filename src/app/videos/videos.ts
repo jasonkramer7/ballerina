@@ -30,5 +30,25 @@ export const videos: DanceVideo[] = [
         title: "ODP 2024 Ballet",
         description: "Hannah in the Omaha Dance Project - The Match Girl",
         location: "assets/videos/ODP/ODP_2024_matchgirl.mp4"
+    },
+    {
+        title: "OAB 2024 Steaks and Knives",
+        description: "OAB 2024 Ballet Steak and Knives",
+        location: "assets/videos/OAB/steakandknives.mp4"
+    },
+    {
+        title: "OAB 2024 Waltz of the Chocolate",
+        description: "OAB 2024 Ballet Waltz of the Chocolate",
+        location: "assets/videos/OAB/waltzofthechocolates.mp4"
+    },
+    {
+        title: "BalletMet Summer Intensve 2024 Ballet",
+        description: "BalletMet Summer Intensve 2024 Ballet",
+        location: "assets/videos/BalletMet/BalletMet_Ballet.mp4"
+    },
+    {
+        title: "BalletMet Summer Intensve 2024 Flamenco",
+        description: "BalletMet Summer Intensve 2024 Flamenco",
+        location: "assets/videos/BalletMet/BalletMet_Flamenco.mp4"
     }
 ]
